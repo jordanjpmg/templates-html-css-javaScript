@@ -1,0 +1,100 @@
+body{
+  background-color: #d1c6c6;
+  margin-top: 150px;
+  border-radius: 250px;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+.container-body{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: rgb(240, 234, 234);
+  padding: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.header > .title{
+  color: #007BA7;
+}
+
+.header> .sub-title{
+  color:#90b346 ;
+}
+
+.header> .description{
+  color:rgb(176, 187, 194);
+}
+
+.container{
+  width: 700px;
+  display: flex;
+  margin: 0 auto ;
+  height: 100%;
+  
+}
+
+.container > .subscription{
+  width: 100%;
+  padding-left: 50px ;
+  background-color: #0CA4AE;
+  border-bottom-left-radius: 10px;
+  
+}
+
+.subscription > .month-sub{
+  color: #fff;
+}
+
+.monthly-payment > .value{
+  font-size: 40px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.monthly-payment > .desc-month{
+  opacity: 0.5;
+  color: #fff;
+}
+
+
+.subscription > .desc-day{
+  margin-top: 1px;
+  color: #fff;
+}
+
+
+.subscription > .btn-sing{
+  margin-top: 20px;
+  background-color: #A7DC18;
+  color: #fff;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.container > .container-about{
+  background-color: #0CA4AE;
+  color: #fff;
+  width: 100%; 
+  border-left: solid 1px green;  
+  padding-left: 50px;
+  border-bottom-right-radius: 10px;
+  
+}
+
